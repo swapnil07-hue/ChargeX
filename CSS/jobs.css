@@ -1,0 +1,268 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header Section */
+  header {
+    background-color:#2c3f46;
+    color: white;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    margin: 0 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #3498db;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: url('/images/jobs1.jpg') no-repeat center center/cover;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 150px 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-content .btn {
+    padding: 12px 30px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-content .btn:hover {
+    background-color: #d35400;
+  }
+  
+  /* About Us Section */
+  .about-section {
+    background-color: #f3eeee;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .about-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+  }
+  
+  /* Mission Section */
+  .mission-section {
+    background-image: url(/images/mumbai.jpg);
+    image-resolution: 45%;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+ 
+  
+  .mission-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .mission-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Team Section */
+  .team-section {
+    padding: 80px 20px;
+    text-align: center;
+    
+  }
+  
+  .team-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .team-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .team-member p {
+    font-size: 16px;
+    color: #7f8c8d;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .team-member img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+
+
+
+.contactus2 {
+    color: black;
+}
+
+.submit{
+  margin-top: 5%;
+  color: black;
+  font-size: large;
+  font-weight: 600;
+}
+
+.fonts {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.quickLinks{
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.directLinks {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.last{
+  background-color: #2c3e50;
+  color: white;
+  font-size: larger;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.para{
+  margin-left: 40%;
+}
+
+#about {
+  background-color: white;
+  color: black;
+  padding: 60px 20px;
+}
+
+.section {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.terms {
+  text-align: center;
+}
+
+.quickLinks  ul{
+  list-style: none;
+}
+
+.directLinks ul{
+  list-style: none;
+}
+
+.Links ul{
+  list-style: none;
+}

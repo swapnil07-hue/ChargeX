@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #97a7b3, #fcfcfc);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #c7f9cc !important;
+}
+
+.login-container {
+  width: 30%;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-form h2 {
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #605d5d;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-group input:hover {
+  font-size: 1.1rem;
+}
+
+.input-group label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: 0.3s ease;
+  color: #999;
+}
+
+.input-group input:focus + label,
+.input-group input:valid + label {
+  top: -12px;
+  left: 10px;
+  font-size: 12px;
+  color: #ff7e5f;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  background: #5f5f72;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #531d1d;
+}
+
+.register {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: black;
+}
+
+.register a {
+  color: rgb(194, 5, 5);
+  text-decoration: none;
+}
+.one {
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.one:hover {
+  text-decoration: underline;
+}
+.forget a {
+    top: 10px;
+  position: relative;
+  left: 248px;
+  text-decoration: none;
+}
+.forget a:hover {
+    text-decoration: underline;
+
+}

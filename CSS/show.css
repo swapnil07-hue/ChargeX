@@ -1,0 +1,212 @@
+/* General Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif !important;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+     height: 45vh;
+    border-radius: 1rem !important;
+    border: 5px solid #38e125;
+    padding:8px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #00a859;
+}
+
+.text-muted {
+    font-size: 16px;
+    color: #777;
+}
+
+.card-text {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* Slots Section */
+#availableSlots {
+    font-weight: bold;
+    color: #00a859;
+}
+
+label {
+    font-weight: 600;
+}
+
+/* Input Field */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00a859;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+.btn-success {
+    background-color: #00a859;
+    color: #fff;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #008f4c;
+}
+
+.btn-warning {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+.btn-warning:hover {
+    background-color: #e6b800;
+}
+
+.btn-danger {
+    background-color: #ff3b30;
+    color: #fff;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #cc3227;
+}
+
+/* Booking Form */
+#bookingForm {
+    margin-top: 15px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 800px) {
+    .container {
+        padding: 20px;
+    }
+    
+    .card {
+        width: 100%;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    input[type="number"] {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+}
+
+
+.navbar{
+    height: 5rem;
+    background-color:white;
+}
+.navbar-nav a:hover{
+    color: rgb(17, 19, 19) ;
+    background-color: #e1e4e4;
+    border-radius: 25px;
+}
+
+.navbar{
+    height: 5rem;
+    /* background-color:#dceefb; */
+    background-color: #ffffff;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    font-size: 1.1rem;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .05);
+}
+.logo{
+    width: 4.5em;;
+    
+    /* color: rgb(0, 228, 27);
+    font-size: 4rem; */
+}
+
+
+.nav-link{
+    color: rgb(0, 0, 0) !important;
+    
+}
+
+.dropdown .btn{
+    background-color: white !important;
+    color: black;
+    margin-left: 59rem !important;
+}
+
+.dropdown-menu{ 
+    margin-left: 48rem !important;
+   box-shadow: 10% !important;
+   font-size: 1rem;
+   font-weight: bold;
+   width: 15.5rem
+}
+
+.user{
+    font-size: 2rem;
+   color:rgb(29, 194, 0);
+}
+
+.dropdown-item:hover{
+    background-color: rgb(230, 229, 229)!important;
+    color: black !important;
+    font-size: 1.15rem;
+    opacity: 10;
+}
+
+.dropdown-item{
+    font-size: 1.1rem;
+}

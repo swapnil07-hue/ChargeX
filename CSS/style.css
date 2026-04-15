@@ -1,0 +1,222 @@
+
+.navbar{
+    height: 5rem;
+    background-color:white;
+}
+.navbar-nav a:hover{
+    color: rgb(17, 19, 19) ;
+    background-color: #e1e4e4;
+    border-radius: 25px;
+}
+
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden ;
+}
+
+.container{
+    flex: 1;
+}
+ 
+
+.navbar{
+    height: 5rem;
+    /* background-color:#dceefb; */
+    background-color: #ffffff;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    font-size: 1.1rem;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .05);
+}
+.logo{
+    width: 4.5em;;
+    
+    /* color: rgb(0, 228, 27);
+    font-size: 4rem; */
+}
+
+
+.nav-link{
+    color: rgb(0, 0, 0) !important;
+    
+}
+
+.dropdown .btn{
+    background-color: white !important;
+    color: black;
+    margin-left: 59rem !important;
+}
+
+.dropdown-menu{ 
+    margin-left: 48rem !important;
+   box-shadow: 10% !important;
+   font-size: 1rem;
+   font-weight: bold;
+   width: 15.5rem;
+}
+
+.user{
+    font-size: 2rem;
+   color:rgb(33, 147, 13);
+}
+
+.dropdown-item:hover{
+    background-color: rgb(230, 229, 229)!important;
+    color: black !important;
+    font-size: 1.15rem;
+    opacity: 10;
+}
+
+.dropdown-item{
+    font-size: 1.1rem;
+}
+
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Card Styling */
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    margin: 15px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Global Styling */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #fff;
+}
+
+/* Title Styling */
+h2 {
+    text-align: center;
+    color: darkslategray;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Grid Layout */
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+/* Card Container */
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 15px;
+    background: #ffffff;
+    border: none;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-10px) !important;
+    box-shadow: 0px 10px 20px rgba(0, 77, 58, 0.4);
+}
+
+/* Card Image */
+.card-img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+/* Card Overlay */
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(80, 95, 232, 0.2), rgba(68, 74, 68, 0.2));
+    border-radius: 12px 12px 0 0;
+}
+
+/* Card Body */
+.card-body {
+    padding: 15px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 0 0 12px 12px;
+}
+
+/* Station Title */
+.card-text b {
+    font-size: 1.2rem;
+    color: #006a5c;
+}
+
+/* Location */
+.card-text {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.4;
+}
+
+/* Slot Availability Indicator */
+.slot-info {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+/* Color Coding for Slot Availability */
+.slot-available {
+    background: #28a745;
+    color: #fff;
+}
+
+.slot-limited {
+    background: #ffc107;
+    color: #333;
+}
+
+.slot-full {
+    background: #dc3545;
+    color: #fff;
+}
+
+/* Listing Link */
+.listing-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.listing-link:hover {
+    text-decoration: none;
+}
+

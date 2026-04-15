@@ -1,0 +1,175 @@
+.sepration {
+  height: 7px;
+  background-color: rgb(65, 65, 65);
+  margin-top: auto;
+}
+
+.fre h1 {
+  text-align: center !important;
+  padding-top: -5px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.fre {
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+.fabox:hover {
+  background-color: rgb(88, 87, 87);
+}
+.fabox {
+  transition: all 1s ease-out;
+  background-color: rgb(50, 49, 49);
+  padding: 2rem;
+  display: flex;
+  margin: 8px auto;
+  justify-content: space-between;
+  max-width: 75vw;
+  visibility: visible;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.FAQ__visible {
+  position: relative;
+  max-width: 75vw;
+  left: 181px;
+  background-color: #303030;
+  border-top: 1px solid black;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.FAQ__visible > p {
+  font-size: 24px;
+  position: relative;
+  max-width: 75vw;
+  margin: 1rem;
+}
+.FAQ__visible:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.FAQ__title:hover {
+  background-color: rgb(88, 87, 87);
+}
+
+.FAQ__title {
+  transition: all 1s ease-out;
+  visibility: visible;
+  cursor: pointer;
+  width: 100%;
+  margin: 8px auto;
+  max-width: 75vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  font-size: 24px;
+  background-color: rgb(50, 49, 49);
+  border: 1px solid #303030;
+  color: white;
+}
+
+footer {
+  max-width: 100vw;
+  /* margin: auto; */
+  color: white;
+  padding: 50px 50px 0px 50px;
+  background-color: black;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+footer a {
+  font-size: 14px;
+  color: rgb(195, 190, 190);
+  text-decoration: none;
+}
+footer span {
+  padding: 34px;
+}
+
+.item a:hover {
+  color: rgb(117, 116, 116);
+}
+
+.icons {
+  margin: 15px;
+  font-size: 30px;
+}
+
+.icons i {
+  position: relative;
+  left: -26px;
+  padding: 10px;
+}
+.fa-square-instagram:hover {
+  cursor: pointer;
+  color: rgb(229, 89, 119);
+}
+
+.fa-square-x-twitter:hover {
+  cursor: pointer;
+  color: rgb(61, 187, 237);
+}
+.fa-google-play:hover {
+  cursor: pointer;
+  color: bisque;
+}
+.fabox svg {
+  filter: invert(1);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 0 15px;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.faq-item.active .faq-answer {
+  max-height: 200px;
+  padding-top: 10px;
+}
+
+.faq-item.active .icon {
+  transform: rotate(45deg);
+}
+
+.faq-footer {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #999;
+}
+
+.item a {
+  font-size: large;
+}
+
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  
+}

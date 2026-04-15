@@ -1,0 +1,119 @@
+/* Banner container with glassmorphism effect */
+.plugngox-banner {
+  background: linear-gradient(135deg, rgba(58, 181, 74, 0.9), rgba(0, 104, 55, 0.9));
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative light pattern */
+.plugngox-banner::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 150%;
+  height: 150%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 70%);
+  transform: rotate(25deg);
+  pointer-events: none;
+}
+
+/* Feature items styling */
+.feature-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.8rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: white;
+  font-size: 1rem;
+  font-size: larger;
+}
+
+.feature-item .icon {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.6rem;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.feature-item:hover .icon {
+  background: #ffea00;
+  color: black;
+  transform: scale(1.15);
+}
+
+/* Banner image styling */
+.banner-image {
+  max-width: 280px;
+  filter: drop-shadow(0px 4px 15px rgba(0,0,0,0.2));
+  animation: floatImage 4s ease-in-out infinite;
+}
+
+/* Floating image animation */
+@keyframes floatImage {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .feature-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.station-form {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* Card header */
+.card-header {
+  background: linear-gradient(135deg, #3ab54a, #006837);
+  padding: 1rem 1.5rem;
+  border: none;
+}
+.card-header h5 {
+  color: white;
+  font-weight: 600;
+}
+
+/* Form labels */
+.form-label {
+  font-weight: 500;
+  color: #006837;
+}
+
+/* Form inputs */
+.station-form .form-control {
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+.station-form .form-control:focus {
+  border-color: #3ab54a;
+  box-shadow: 0 0 0 0.2rem rgba(58, 181, 74, 0.25);
+}
+
+/* Submit button */
+.station-form .btn-success {
+  background: linear-gradient(135deg, #3ab54a, #006837);
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.station-form .btn-success:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}

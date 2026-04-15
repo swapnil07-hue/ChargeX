@@ -1,0 +1,285 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-image: url(/images/mumbai.jpg);
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+  
+  /* Privacy Policy Section */
+  .privacy-policy-section {
+    background-color: #fff;
+    padding: 40px;
+    max-width: 1000px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .privacy-policy-section h2 {
+    font-size: 1.8rem;
+    color: #2C3E50;
+    margin-top: 30px;
+  }
+  
+  .privacy-policy-section h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #2C3E50;
+  }
+  
+  .privacy-policy-section p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    margin: 10px 0 20px 0;
+  }
+  
+  .privacy-policy-section a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .privacy-policy-section a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Links in Paragraphs */
+  .privacy-policy-section a {
+    color: #3498db;
+  }
+  
+  .privacy-policy-section a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-section p {
+      font-size: 1rem;
+    }
+  
+    .privacy-policy-section {
+      padding: 20px;
+    }
+  
+    .privacy-policy-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .privacy-policy-section h3 {
+      font-size: 1.3rem;
+    }
+  
+    .privacy-policy-section p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Scroll to Top Button */
+  #scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #2C3E50;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #scrollTopBtn:hover {
+    background-color: #3498db;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2C3E50;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  footer .footer-logo img {
+    max-width: 150px;
+  }
+  
+  footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer .footer-links {
+    margin-top: 20px;
+  }
+  
+  footer .footer-links h3 {
+    font-size: 1.2rem;
+  }
+  
+  footer .footer-links ul {
+    list-style-type: none;
+  }
+  
+  footer .footer-links ul li {
+    margin: 10px 0;
+  }
+  
+  footer .footer-links ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer .footer-links ul li a:hover {
+    color: #3498db;
+  }
+  
+  footer .copyright {
+    margin-top: 30px;
+    font-size: 0.9rem;
+  }
+  
+  footer .copyright a {
+    color: #3498db;
+  }
+  
+  footer .copyright a:hover {
+    color: white;
+  }
+  
+  footer {
+    background-color: #082b12;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  .footer-logo img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    margin: 15px 0;
+  }
+  
+  .social-icons a {
+    margin: 0 5px;
+    display: inline-block;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 0;
+  }
+  
+  .footer-links h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    font-size: 14px;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .brand {
+    color: #80e980;
+  }
+  
+  .author {
+    color: #80e980;
+    text-decoration: none;
+  }
+  
+  /* Scroll to Top Button */
+  #scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #80e980;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  #scrollTopBtn:hover {
+    background-color: #5ac75a;
+  }
+
+  .privacy{
+    text-align: center;
+  }
