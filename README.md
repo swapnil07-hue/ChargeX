@@ -1,7 +1,6 @@
 
 ## 📁 Repository Structure
 
-plugNgox/
 ├─ backend/ # Node.js + Express.js backend
 ├─ frontend/ # EJS templates, HTML, CSS, JS
 ├─ public/ # Static files
