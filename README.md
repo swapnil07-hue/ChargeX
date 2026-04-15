@@ -1,8 +1,3 @@
-# PlugNgox - Electric Vehicle Recharge Bunk
-
-PlugNgox is a full-stack web application that allows users to find, book, and pay for electric vehicle (EV) charging stations in real-time. Admins can register their stations and manage slots, locations, and bookings.
-
----
 
 ## 📁 Repository Structure
 
