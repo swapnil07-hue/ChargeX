@@ -1,4 +1,4 @@
-
+ChargeX
 ## 📁 Repository Structure
 
 ├─ backend/ # Node.js + Express.js backend
